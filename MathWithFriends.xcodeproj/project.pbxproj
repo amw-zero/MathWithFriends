@@ -13,6 +13,8 @@
 		A555B1F71F01C604007EE1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A555B1F61F01C604007EE1C1 /* Assets.xcassets */; };
 		A555B1FA1F01C604007EE1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A555B1F81F01C604007EE1C1 /* LaunchScreen.storyboard */; };
 		A555B2051F01C604007EE1C1 /* MathWithFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555B2041F01C604007EE1C1 /* MathWithFriendsTests.swift */; };
+		A555B2101F01C904007EE1C1 /* MathProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555B20F1F01C904007EE1C1 /* MathProblem.swift */; };
+		A555B2121F01CA3F007EE1C1 /* MathProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555B2111F01CA3F007EE1C1 /* MathProblemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A555B2001F01C604007EE1C1 /* MathWithFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathWithFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A555B2041F01C604007EE1C1 /* MathWithFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathWithFriendsTests.swift; sourceTree = "<group>"; };
 		A555B2061F01C604007EE1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A555B20F1F01C904007EE1C1 /* MathProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathProblem.swift; sourceTree = "<group>"; };
+		A555B2111F01CA3F007EE1C1 /* MathProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathProblemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				A555B1F61F01C604007EE1C1 /* Assets.xcassets */,
 				A555B1F81F01C604007EE1C1 /* LaunchScreen.storyboard */,
 				A555B1FB1F01C604007EE1C1 /* Info.plist */,
+				A555B20F1F01C904007EE1C1 /* MathProblem.swift */,
+				A555B2111F01CA3F007EE1C1 /* MathProblemViewController.swift */,
 			);
 			path = MathWithFriends;
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A555B2121F01CA3F007EE1C1 /* MathProblemViewController.swift in Sources */,
 				A555B1F21F01C604007EE1C1 /* ViewController.swift in Sources */,
+				A555B2101F01C904007EE1C1 /* MathProblem.swift in Sources */,
 				A555B1F01F01C604007EE1C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
